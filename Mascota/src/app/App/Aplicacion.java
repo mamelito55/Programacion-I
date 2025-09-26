@@ -1,3 +1,10 @@
+/*
+*Programa para almacenar y mostrar la informacion de las mascotas de la veterinaria
+*Samuel Marin Varon
+*25 de septiembre del 2025
+*GNU GPL V3
+*/
+
 package app;
 
 import model.Mascota;
