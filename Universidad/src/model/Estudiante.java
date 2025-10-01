@@ -9,6 +9,7 @@ public abstract class Estudiante {
     private String programa;
     private String semestre;
     private static Map<String, List<Estudiante>> estudiantesPorMateria = new HashMap<>();
+    private List<Materia> listaMaterias;
 
     public Estudiante(String id, String nombre, String documento, String programa, String semestre) {
         this.id = id;
