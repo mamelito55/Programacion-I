@@ -11,6 +11,7 @@ public abstract class Materia {
     private int semestre;
     private Profesor profesor;
     private List<Estudiante> inscritos;
+    private List<Estudiante> listaEstudiantes;
 
     public Materia(String codigo, String nombre, int horasTeoria, int creditos, int semestre) {
         this.codigo = codigo;
@@ -84,3 +85,4 @@ public abstract class Materia {
         return "[%s] %s - Sem %d, %d créditos".formatted(codigo, nombre, semestre, creditos);
     }
 }
+
