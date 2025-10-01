@@ -17,6 +17,7 @@ public abstract class Estudiante {
         this.documento = documento;
         this.programa = programa;
         this.semestre = semestre;
+        this.listaMaterias = new ArrayList<>();
     }
 
     public String getId() {
