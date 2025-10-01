@@ -46,11 +46,19 @@ public abstract class Profesor {
     public void setExperiencia(int experiencia) {
         this.experiencia = experiencia;
     }
+    public List<Materia> getListaMaterias() {
+    return listaMaterias;
+    }
+
+    public void setListaMaterias(List<Materia> listaMaterias) {
+    this.listaMaterias = listaMaterias;
+    }
 
     @Override
     public String toString() {
         return nombre + " (" + titulo + ", " + experiencia + " años)";
     }
 }
+
 
 
