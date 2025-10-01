@@ -12,6 +12,7 @@ public abstract class Profesor {
         this.nombre = nombre;
         this.titulo = titulo;
         this.experiencia = experiencia;
+        this.listaMaterias = new ArrayList<>();
     }
 
     public String getId() {
@@ -51,4 +52,5 @@ public abstract class Profesor {
         return nombre + " (" + titulo + ", " + experiencia + " años)";
     }
 }
+
 
