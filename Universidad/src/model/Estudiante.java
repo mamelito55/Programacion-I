@@ -60,6 +60,14 @@ public abstract class Estudiante {
         this.semestre = semestre;
     }
 
+    public void setListaMaterias(List<Materia> listaMaterias) {
+    this.listaMaterias = listaMaterias;
+    }
+
+    public List<Materia> getListaMaterias() {
+    return listaMaterias;
+    }
+
     public static String inscribirEstudianteEnMateria(String materia, Estudiante estudiante) {
         estudiantesPorMateria.putIfAbsent(materia, new ArrayList<>());
         estudiantesPorMateria.get(materia).add(estudiante);
