@@ -5,6 +5,7 @@ public abstract class Profesor {
     private String nombre;
     private String titulo;
     private int experiencia;
+    private List<Materia> listaMaterias;
 
     public Profesor(String id, String nombre, String titulo, int experiencia) {
         this.id = id;
@@ -50,3 +51,4 @@ public abstract class Profesor {
         return nombre + " (" + titulo + ", " + experiencia + " años)";
     }
 }
+
