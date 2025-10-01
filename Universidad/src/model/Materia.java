@@ -75,6 +75,14 @@ public abstract class Materia {
         return inscritos;
     }
 
+    public void setListaEstudiantes(List<Estudiante> listaEstudiantes) {
+    this.listaEstudiantes = listaEstudiantes;
+    }
+    
+    public List<Estudiante> getListaEstudiantes() {
+    return listaEstudiantes;
+    }
+
     public void addEstudiante(Estudiante e) {
         if (!inscritos.contains(e)) inscritos.add(e);
     }
@@ -86,5 +94,6 @@ public abstract class Materia {
         return "[%s] %s - Sem %d, %d créditos".formatted(codigo, nombre, semestre, creditos);
     }
 }
+
 
 
