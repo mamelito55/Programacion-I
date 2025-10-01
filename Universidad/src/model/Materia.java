@@ -20,6 +20,7 @@ public abstract class Materia {
         this.creditos = creditos;
         this.semestre = semestre;
         this.inscritos = new ArrayList<>();
+        this.listaEstudiantes = new ArrayList<>();
     }
 
     public String getCodigo() {
@@ -85,4 +86,5 @@ public abstract class Materia {
         return "[%s] %s - Sem %d, %d créditos".formatted(codigo, nombre, semestre, creditos);
     }
 }
+
 
