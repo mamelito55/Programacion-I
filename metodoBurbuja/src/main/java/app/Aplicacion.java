@@ -1,3 +1,10 @@
+/*
+*Aplicacion para ordenar personas en una lista
+*Samuel Marin Varon
+*30 de noviembre del 2025
+*GNU GPL V3
+*/
+
 package app;
 import model.*;
 
@@ -32,3 +39,4 @@ public class Aplicacion {
         }
     }
 }
+
